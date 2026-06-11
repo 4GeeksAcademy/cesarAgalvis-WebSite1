@@ -5,14 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Víctor "El Trueno" | Cantante de Rock</title>
     <link rel="stylesheet" href="styles.css">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Person",
+                    "@id": "https://eltruenorock.com/#artista",
+                    "name": "Víctor \"El Trueno\"",
+                    "description": "Cantante de rock con más de 10 años de trayectoria en escenarios nacionales.",
+                    "jobTitle": "Cantante de Rock",
+                    "genre": "Rock",
+                    "email": "mailto:contrataciones@eltruenorock.com",
+                    "url": "https://eltruenorock.com"
+                },
+                {
+                    "@type": "MusicEvent",
+                    "name": "Víctor \"El Trueno\" en Estadio Nacional",
+                    "startDate": "2026-07-15",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Estadio Nacional",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "San José",
+                            "addressCountry": "CR"
+                        }
+                    },
+                    "performer": {
+                        "@id": "https://eltruenorock.com/#artista"
+                    }
+                },
+                {
+                    "@type": "MusicEvent",
+                    "name": "Víctor \"El Trueno\" en Club de Rock La Nota",
+                    "startDate": "2026-08-22",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Club de Rock La Nota",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Heredia",
+                            "addressCountry": "CR"
+                        }
+                    },
+                    "performer": {
+                        "@id": "https://eltruenorock.com/#artista"
+                    }
+                },
+                {
+                    "@type": "MusicEvent",
+                    "name": "Víctor \"El Trueno\" en Festival Internacional de la Música",
+                    "startDate": "2026-09-10",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Festival Internacional de la Música",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressRegion": "Guanacaste",
+                            "addressCountry": "CR"
+                        }
+                    },
+                    "performer": {
+                        "@id": "https://eltruenorock.com/#artista"
+                    }
+                }
+            ]
+        }
+        </script>
+
+
+
 </head>
+
 <body>
     <header>
         <h1>Víctor "El Trueno"</h1>
         <p>Rock & Roll hasta la médula</p>
     </header>
 
-    <nav>
+    <nav aria-label="Navegación principal">
         <ul>
             <li><a href="#sobre-mi">Sobre mí</a></li>
             <li><a href="#trayectoria">Trayectoria</a></li>
